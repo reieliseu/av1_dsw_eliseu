@@ -1,26 +1,12 @@
 {
   "name": "js-basico",
   "version": "1.0.0",
-  "main": "index.js",
   "type": "module",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "batata": "node src/index.js",
     "dev": "node src/server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/h-fcosta/js-basico.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/h-fcosta/js-basico/issues"
-  },
-  "homepage": "https://github.com/h-fcosta/js-basico#readme",
-  "description": "",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^4.18.2"
   }
 }
